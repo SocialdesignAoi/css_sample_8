@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  background: url("weightless-60632_1280.jpg");
+  background-size: cover;
+  background-repeat:no-repeat;
+  background-position:50% 30%;
+  height: 60vh;
+  box-shadow: 0 4px 0.3125rem rgba(0, 0, 0, 0.3);
+ }
+
+  header h1{
+    position: absolute;
+    top: 15rem;
+    left: 12rem;
+    font-size: 63px;
+    color: white;
+ }
+
+nav {
+  padding: 1rem 3rem ;
+  background: #333;
+}
+  nav ul{
+    display: flex;
+    flex-direction: row;
+  }
+  nav ul li{
+    margin-right: 2rem;
+  }
+  nav ul li a {
+    color: white;
+  }
+
+main{
+  margin: 0 330px;
+  display: flex;
+  flex-wrap：wrap;
+  justify-content:space-between;
+}
+
+  section{
+    flex: 3;
+    padding: 3rem;
+    background: #EEE;
+  }
+
+    article{
+      min-height: 8rem;
+      padding: 1rem;
+      margin-bottom: 2rem;
+      background: #FFF;
+    }
+
+  aside{
+    flex: 1;
+    padding: 3rem;
+    background: #DDD;
+  }
+
+footer {
+  padding: 2rem 3rem;
+  text-align: center;
+  background: #333;
+  color: white;
+}
